@@ -1,0 +1,1 @@
+worker: python voice_to_text_bot.py
