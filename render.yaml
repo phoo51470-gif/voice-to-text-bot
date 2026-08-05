@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: voice-to-text-bot
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python voice_to_text_bot.py
-    envVars:
-      - key: BOT_TOKEN
-        sync: false
